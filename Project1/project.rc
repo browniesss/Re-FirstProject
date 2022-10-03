@@ -1,0 +1,195 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+MAP1_1                  BITMAP                  "리소스\\맵\\단서방_05.bmp"
+
+O_CLUE_base             BITMAP                  "리소스\\오브젝트\\단서\\단서(64).bmp"
+
+O_GarLic                BITMAP                  "리소스\\오브젝트\\아이템\\마늘(64).bmp"
+
+O_Raidsh                BITMAP                  "리소스\\오브젝트\\아이템\\무(64).bmp"
+
+O_Spinash               BITMAP                  "리소스\\오브젝트\\아이템\\시금치(64).bmp"
+
+O_Mugwork               BITMAP                  "리소스\\오브젝트\\아이템\\쑥(64).bmp"
+
+O_Table_1               BITMAP                  "리소스\\오브젝트\\테이블\\테이블(256x128).bmp"
+
+O_Table_2               BITMAP                  "리소스\\오브젝트\\테이블\\테이블_접시(256x128).bmp"
+
+O_Grape                 BITMAP                  "리소스\\오브젝트\\아이템\\포도(64)45도.bmp"
+
+C_SIN_MOVE              BITMAP                  "리소스\\캐릭터\\캐릭터_전체_움직임_완성본.bmp"
+
+O_DECO                  BITMAP                  "리소스\\오브젝트\\석상\\관상용석상(64x128).bmp"
+
+O_BEAR                  BITMAP                  "리소스\\오브젝트\\석상\\석상(곰인간변신)128x256_스프라이트.bmp"
+
+O_DOG                   BITMAP                  "리소스\\오브젝트\\석상\\석상(부서짐_개)스프라이트128x256.bmp"
+
+O_WOLF                  BITMAP                  "리소스\\오브젝트\\석상\\석상(부서짐_늑대)스프라이트128x256.bmp"
+
+O_LION                  BITMAP                  "리소스\\오브젝트\\석상\\석상(부서짐_사자)스프라이트128x256.bmp"
+
+O_RABBIT                BITMAP                  "리소스\\오브젝트\\석상\\석상(부서짐_토끼)스프라이트128x256.bmp"
+
+O_TIGER                 BITMAP                  "리소스\\오브젝트\\석상\\석상(부서짐_호랑이)스프라이트128x256.bmp"
+
+O_CF_2                  BITMAP                  "리소스\\오브젝트\\가림막\\가림막(세로_위2)64x256.bmp"
+
+O_EFF_HEART             BITMAP                  "리소스\\오브젝트\\이펙트\\하트64_스프라이트.bmp"
+
+MAP1_2                  BITMAP                  "리소스\\맵\\석상방_03.bmp"
+
+MAP1_3                  BITMAP                  "리소스\\맵\\기계방_03.bmp"
+
+O_LOCKDOOR              BITMAP                  "리소스\\오브젝트\\가림막\\잠긴문(64x160).bmp"
+
+O_MACHIN                BITMAP                  "리소스\\오브젝트\\테이블\\기계_스프라이트2.bmp"
+
+Inven_1                 BITMAP                  "리소스\\ui\\선택창.bmp"
+
+Inven_2                 BITMAP                  "리소스\\ui\\인벤토리.bmp"
+
+Inven_3                 BITMAP                  "리소스\\ui\\파티창.bmp"
+
+O_CF_1                  BITMAP                  "리소스\\오브젝트\\가림막\\가림막_선택표시(가로).bmp"
+
+O_CF_3                  BITMAP                  "리소스\\오브젝트\\가림막\\가림막_선택표시(세로).bmp"
+
+P_1                     BITMAP                  "리소스\\삽화\\시작\\0-#1_비트맵.bmp"
+
+P_2                     BITMAP                  "리소스\\삽화\\시작\\0-#2_비트맵.bmp"
+
+P_3                     BITMAP                  "리소스\\삽화\\시작\\0-#3,4,8-1_비트맵.bmp"
+
+P_4                     BITMAP                  "리소스\\삽화\\시작\\0-#5,6_비트맵.bmp"
+
+P_5                     BITMAP                  "리소스\\삽화\\시작\\0-#7_비트맵.bmp"
+
+P_6                     BITMAP                  "리소스\\삽화\\시작\\0-#8-2,#9_비트맵.bmp"
+
+P_7                     BITMAP                  "리소스\\삽화\\시작\\0-#10.bmp"
+
+P_8                     BITMAP                  "리소스\\삽화\\시작\\0-#11.bmp"
+
+P_9                     BITMAP                  "리소스\\삽화\\시작\\0-#12.bmp"
+
+P_10                    BITMAP                  "리소스\\삽화\\시작\\0-#13 - 16.bmp"
+
+P_11                    BITMAP                  "리소스\\삽화\\시작\\0-#17.bmp"
+
+CONVER                  BITMAP                  "리소스\\ui\\대화창1600x384.bmp"
+
+C_SIN_Conver            BITMAP                  "리소스\\캐릭터\\대화창(440)_신성오(SS5-24)_비트맵.bmp"
+
+//C_BAEK_Conver           BITMAP                  "C:\\Users\\user\\Desktop\\찐x2 최종\\Project1\\리소스\\캐릭터\\대화창(550)_백가온 (B89-11).bmp"
+
+O_CLUE_1                BITMAP                  "리소스\\오브젝트\\단서\\단서1.bmp"
+
+O_CLUE_2                BITMAP                  "리소스\\오브젝트\\단서\\단서2.bmp"
+
+O_BAEK                  BITMAP                  "리소스\\캐릭터\\백가온_움직임(완).bmp"
+
+S_START_START           BITMAP                  "리소스\\시작화면\\게임시작_비트맵 .bmp"
+
+S_START_EXIT            BITMAP                  "리소스\\시작화면\\게임종료_비트맵.bmp"
+
+S_START_BACK            BITMAP                  "리소스\\시작화면\\시작화면_배경_비트맵.bmp"
+
+S_START_RESUME          BITMAP                  "리소스\\시작화면\\이어하기_비트맵.bmp"
+
+IDB_BITMAP10            BITMAP                  "리소스\\캐릭터\\PLAYER(200)_신성오(SS5-24)_비트맵.bmp"
+
+IDB_BITMAP15            BITMAP                  "리소스\\캐릭터\\UI(64)_백가온 (B89-11)_비트맵.bmp"
+
+IDB_BITMAP16            BITMAP                  "리소스\\캐릭터\\UI(64)_신성오(SS5-24)_비트맵.bmp"
+
+IDB_BITMAP18            BITMAP                  "리소스\\캐릭터\\대화창(550)_백가온 (B89-11).bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+W_BGM                   WAVE                    "리소스\\사운드\\[게임브금] Dream_Escape.wav"
+
+W_M2_OPEN               WAVE                    "리소스\\사운드\\[기계방,석상방] 잠긴문 오픈.wav"
+
+W_M1_NOTE               WAVE                    "리소스\\사운드\\[단서방] 단서종이 볼때.wav"
+
+W_D_KNOCK               WAVE                    "리소스\\사운드\\[삽화] 문 두드리는 소리.wav"
+
+W_M2_BTOH               WAVE                    "리소스\\사운드\\[석상방] 곰-인간 변신.wav"
+
+W_M2_BREAK              WAVE                    "리소스\\사운드\\[석상방] 석상 깨지는 소리.wav"
+
+W_M2_MOVING             WAVE                    "리소스\\사운드\\[석상방] 석상 움직임, 가림막 내리는 효과음.wav"
+
+W_M2_HEART              WAVE                    "리소스\\사운드\\[석상방] 하트 효과음 3.wav"
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

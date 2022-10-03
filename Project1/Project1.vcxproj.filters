@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일\오브젝트">
+      <UniqueIdentifier>{f4775a03-49bf-40cf-b0a0-c37fb4fa6fb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\UI">
+      <UniqueIdentifier>{594ae803-6bcc-4b04-93d1-d866fa24193d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\맵">
+      <UniqueIdentifier>{93509252-f028-4f08-b8f1-f52ca68ffcc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\캐릭터">
+      <UniqueIdentifier>{61d3a174-e51b-4e13-967c-d1c02e73969e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\오브젝트\단서">
+      <UniqueIdentifier>{a4046ccf-9ba1-4aea-875d-3cbf3fede8b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\오브젝트\아이템">
+      <UniqueIdentifier>{851e569f-d42e-4918-b425-9fb1525d09e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\오브젝트\테이블">
+      <UniqueIdentifier>{6e32c3f8-d4ef-4089-a04c-dbd98f4e596e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\오브젝트\석상">
+      <UniqueIdentifier>{bea63764-7358-4350-a0c3-9c3f3beea2ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\오브젝트\가림막">
+      <UniqueIdentifier>{81b32700-97ae-495a-9afb-3f1f98f10ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\오브젝트\이펙트">
+      <UniqueIdentifier>{968bdac6-aec4-4d7d-9b30-0938c48e3060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\삽화">
+      <UniqueIdentifier>{64d16cca-1be6-437c-aab5-44e89edf16e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\삽화\시작">
+      <UniqueIdentifier>{e556f095-b493-40e0-b772-0591269661a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\시작화면">
+      <UniqueIdentifier>{3062111e-7e05-4a87-bcc4-1a4e5fe55f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\사운드">
+      <UniqueIdentifier>{41051a66-5bc2-48bf-be3d-f48f3ec3e982}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="함수.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="메인.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="상호작용.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="인벤토리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="출력.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="오브젝트,엔티티.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="맵.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="project.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="리소스\캐릭터\주인공 캐릭터-실험버전.bmp">
+      <Filter>리소스 파일\캐릭터</Filter>
+    </Image>
+    <Image Include="리소스\맵\단서방_05.bmp">
+      <Filter>리소스 파일\맵</Filter>
+    </Image>
+    <Image Include="리소스\오브젝트\단서\단서(64).bmp">
+      <Filter>리소스 파일\오브젝트\단서</Filter>
+    </Image>
+    <Image Include="리소스\오브젝트\아이템\마늘(64).bmp">
+      <Filter>리소스 파일\오브젝트\아이템</Filter>
+    </Image>
+    <Image Include="리소스\오브젝트\아이템\무(64).bmp">
+      <Filter>리소스 파일\오브젝트\아이템</Filter>
+    </Image>
+    <Image Include="리소스\오브젝트\아이템\시금치(64).bmp">
+      <Filter>리소스 파일\오브젝트\아이템</Filter>
+    </Image>
+    <Image Include="리소스\오브젝트\아이템\쑥(64).bmp">
+      <Filter>리소스 파일\오브젝트\아이템</Filter>
+    </Image>
+    <Image Include="리소스\오브젝트\테이블\테이블(256x128).bmp">
+      <Filter>리소스 파일\오브젝트\테이블</Filter>
+    </Image>
+    <Image Include="리소스\오브젝트\테이블\테이블_접시(256x128).bmp">
+      <Filter>리소스 파일\오브젝트\테이블</Filter>
+    </Image>
+    <Image Include="리소스\오브젝트\아이템\포도(64)45도.bmp">
+      <Filter>리소스 파일\오브젝트\아이템</Filter>
+    </Image>
+    <Image Include="리소스\캐릭터\캐릭터_전체_움직임_완성본.bmp">
+      <Filter>리소스 파일\캐릭터</Filter>
+    </Image>
+    <Image Include="리소스\오브젝트\석상\관상용석상(64x128).bmp">
+      <Filter>리소스 파일\오브젝트\석상</Filter>
+    </Image>
+    <Image Include="리소스\오브젝트\석상\석상(곰인간변신)128x256_스프라이트.bmp">
+      <Filter>리소스 파일\오브젝트\석상</Filter>
+    </Image>
+    <Image Include="리소스\오브젝트\석상\석상(부서짐_개)스프라이트128x256.bmp">
+      <Filter>리소스 파일\오브젝트\석상</Filter>
+    </Image>
+    <Image Include="리소스\오브젝트\석상\석상(부서짐_늑대)스프라이트128x256.bmp">
+      <Filter>리소스 파일\오브젝트\석상</Filter>
+    </Image>
+    <Image Include="리소스\오브젝트\석상\석상(부서짐_사자)스프라이트128x256.bmp">
+      <Filter>리소스 파일\오브젝트\석상</Filter>
+    </Image>
+    <Image Include="리소스\오브젝트\석상\석상(부서짐_토끼)스프라이트128x256.bmp">
+      <Filter>리소스 파일\오브젝트\석상</Filter>
+    </Image>
+    <Image Include="리소스\오브젝트\석상\석상(부서짐_호랑이)스프라이트128x256.bmp">
+      <Filter>리소스 파일\오브젝트\석상</Filter>
+    </Image>
+    <Image Include="리소스\오브젝트\가림막\가림막(세로_위2)64x256.bmp">
+      <Filter>리소스 파일\오브젝트\가림막</Filter>
+    </Image>
+    <Image Include="리소스\오브젝트\이펙트\하트64_스프라이트.bmp">
+      <Filter>리소스 파일\오브젝트\이펙트</Filter>
+    </Image>
+    <Image Include="리소스\맵\석상방_03.bmp">
+      <Filter>리소스 파일\맵</Filter>
+    </Image>
+    <Image Include="리소스\오브젝트\테이블\기계_스프라이트2.bmp">
+      <Filter>리소스 파일\오브젝트\테이블</Filter>
+    </Image>
+    <Image Include="리소스\맵\기계방_03.bmp">
+      <Filter>리소스 파일\맵</Filter>
+    </Image>
+    <Image Include="리소스\오브젝트\가림막\잠긴문(64x160).bmp">
+      <Filter>리소스 파일\오브젝트\가림막</Filter>
+    </Image>
+    <Image Include="리소스\ui\선택창.bmp">
+      <Filter>리소스 파일\UI</Filter>
+    </Image>
+    <Image Include="리소스\ui\인벤토리.bmp">
+      <Filter>리소스 파일\UI</Filter>
+    </Image>
+    <Image Include="리소스\ui\파티창.bmp">
+      <Filter>리소스 파일\UI</Filter>
+    </Image>
+    <Image Include="리소스\오브젝트\가림막\가림막_선택표시(가로).bmp">
+      <Filter>리소스 파일\오브젝트\가림막</Filter>
+    </Image>
+    <Image Include="리소스\오브젝트\가림막\가림막_선택표시(세로).bmp">
+      <Filter>리소스 파일\오브젝트\가림막</Filter>
+    </Image>
+    <Image Include="리소스\삽화\시작\0-#1_비트맵.bmp">
+      <Filter>리소스 파일\삽화\시작</Filter>
+    </Image>
+    <Image Include="리소스\삽화\시작\0-#2_비트맵.bmp">
+      <Filter>리소스 파일\삽화\시작</Filter>
+    </Image>
+    <Image Include="리소스\삽화\시작\0-#3,4,8-1_비트맵.bmp">
+      <Filter>리소스 파일\삽화\시작</Filter>
+    </Image>
+    <Image Include="리소스\삽화\시작\0-#5,6_비트맵.bmp">
+      <Filter>리소스 파일\삽화\시작</Filter>
+    </Image>
+    <Image Include="리소스\삽화\시작\0-#7_비트맵.bmp">
+      <Filter>리소스 파일\삽화\시작</Filter>
+    </Image>
+    <Image Include="리소스\삽화\시작\0-#8-2,#9_비트맵.bmp">
+      <Filter>리소스 파일\삽화\시작</Filter>
+    </Image>
+    <Image Include="리소스\삽화\시작\0-#10.bmp">
+      <Filter>리소스 파일\삽화\시작</Filter>
+    </Image>
+    <Image Include="리소스\삽화\시작\0-#11.bmp">
+      <Filter>리소스 파일\삽화\시작</Filter>
+    </Image>
+    <Image Include="리소스\삽화\시작\0-#12.bmp">
+      <Filter>리소스 파일\삽화\시작</Filter>
+    </Image>
+    <Image Include="리소스\삽화\시작\0-#13 - 16.bmp">
+      <Filter>리소스 파일\삽화\시작</Filter>
+    </Image>
+    <Image Include="리소스\삽화\시작\0-#17.bmp">
+      <Filter>리소스 파일\삽화\시작</Filter>
+    </Image>
+    <Image Include="리소스\ui\대화창1600x384.bmp">
+      <Filter>리소스 파일\UI</Filter>
+    </Image>
+    <Image Include="리소스\오브젝트\단서\단서2.bmp">
+      <Filter>리소스 파일\오브젝트\단서</Filter>
+    </Image>
+    <Image Include="리소스\오브젝트\단서\단서1.bmp">
+      <Filter>리소스 파일\오브젝트\단서</Filter>
+    </Image>
+    <Image Include="리소스\캐릭터\백가온_움직임(완).bmp">
+      <Filter>리소스 파일\캐릭터</Filter>
+    </Image>
+    <Image Include="리소스\시작화면\게임종료_비트맵.bmp">
+      <Filter>리소스 파일\시작화면</Filter>
+    </Image>
+    <Image Include="리소스\시작화면\게임시작_비트맵 .bmp">
+      <Filter>리소스 파일\시작화면</Filter>
+    </Image>
+    <Image Include="리소스\시작화면\시작화면_배경_비트맵.bmp">
+      <Filter>리소스 파일\시작화면</Filter>
+    </Image>
+    <Image Include="리소스\시작화면\이어하기_비트맵.bmp">
+      <Filter>리소스 파일\시작화면</Filter>
+    </Image>
+    <Image Include="리소스\캐릭터\PLAYER(200)_신성오(SS5-24)_비트맵.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="리소스\캐릭터\UI(64)_백가온 (B89-11)_비트맵.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="리소스\캐릭터\UI(64)_신성오(SS5-24)_비트맵.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="리소스\캐릭터\대화창(440)_신성오(SS5-24)_비트맵.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="리소스\캐릭터\대화창(550)_백가온 (B89-11).bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="리소스\사운드\[게임브금] Dream_Escape.wav">
+      <Filter>리소스 파일\사운드</Filter>
+    </Media>
+    <Media Include="리소스\사운드\[기계방,석상방] 잠긴문 오픈.wav">
+      <Filter>리소스 파일\사운드</Filter>
+    </Media>
+    <Media Include="리소스\사운드\[단서방] 단서종이 볼때.wav">
+      <Filter>리소스 파일\사운드</Filter>
+    </Media>
+    <Media Include="리소스\사운드\[삽화] 문 두드리는 소리.wav">
+      <Filter>리소스 파일\사운드</Filter>
+    </Media>
+    <Media Include="리소스\사운드\[석상방] 곰-인간 변신.wav">
+      <Filter>리소스 파일\사운드</Filter>
+    </Media>
+    <Media Include="리소스\사운드\[석상방] 석상 깨지는 소리.wav">
+      <Filter>리소스 파일\사운드</Filter>
+    </Media>
+    <Media Include="리소스\사운드\[석상방] 석상 움직임, 가림막 내리는 효과음.wav">
+      <Filter>리소스 파일\사운드</Filter>
+    </Media>
+    <Media Include="리소스\사운드\[석상방] 하트 효과음 3.wav">
+      <Filter>리소스 파일\사운드</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

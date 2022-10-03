@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{487B3BE3-B3F5-45F9-B7CE-6B487C763BBE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Project1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="맵.cpp" />
+    <ClCompile Include="메인.cpp" />
+    <ClCompile Include="상호작용.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="오브젝트,엔티티.cpp" />
+    <ClCompile Include="인벤토리.cpp" />
+    <ClCompile Include="출력.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="함수.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="project.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="리소스\ui\대화창1600x384.bmp" />
+    <Image Include="리소스\ui\선택창.bmp" />
+    <Image Include="리소스\ui\인벤토리.bmp" />
+    <Image Include="리소스\ui\파티창.bmp" />
+    <Image Include="리소스\맵\기계방_03.bmp" />
+    <Image Include="리소스\맵\단서방_05.bmp" />
+    <Image Include="리소스\맵\석상방_03.bmp" />
+    <Image Include="리소스\삽화\시작\0-#10.bmp" />
+    <Image Include="리소스\삽화\시작\0-#11.bmp" />
+    <Image Include="리소스\삽화\시작\0-#12.bmp" />
+    <Image Include="리소스\삽화\시작\0-#13 - 16.bmp" />
+    <Image Include="리소스\삽화\시작\0-#17.bmp" />
+    <Image Include="리소스\삽화\시작\0-#1_비트맵.bmp" />
+    <Image Include="리소스\삽화\시작\0-#2_비트맵.bmp" />
+    <Image Include="리소스\삽화\시작\0-#3,4,8-1_비트맵.bmp" />
+    <Image Include="리소스\삽화\시작\0-#5,6_비트맵.bmp" />
+    <Image Include="리소스\삽화\시작\0-#7_비트맵.bmp" />
+    <Image Include="리소스\삽화\시작\0-#8-2,#9_비트맵.bmp" />
+    <Image Include="리소스\시작화면\게임시작_비트맵 .bmp" />
+    <Image Include="리소스\시작화면\게임종료_비트맵.bmp" />
+    <Image Include="리소스\시작화면\시작화면_배경_비트맵.bmp" />
+    <Image Include="리소스\시작화면\이어하기_비트맵.bmp" />
+    <Image Include="리소스\오브젝트\가림막\가림막(세로_위2)64x256.bmp" />
+    <Image Include="리소스\오브젝트\가림막\가림막_선택표시(가로).bmp" />
+    <Image Include="리소스\오브젝트\가림막\가림막_선택표시(세로).bmp" />
+    <Image Include="리소스\오브젝트\가림막\잠긴문(64x160).bmp" />
+    <Image Include="리소스\오브젝트\단서\단서(64).bmp" />
+    <Image Include="리소스\오브젝트\단서\단서1.bmp" />
+    <Image Include="리소스\오브젝트\단서\단서2.bmp" />
+    <Image Include="리소스\오브젝트\석상\관상용석상(64x128).bmp" />
+    <Image Include="리소스\오브젝트\석상\석상(곰인간변신)128x256_스프라이트.bmp" />
+    <Image Include="리소스\오브젝트\석상\석상(부서짐_개)스프라이트128x256.bmp" />
+    <Image Include="리소스\오브젝트\석상\석상(부서짐_늑대)스프라이트128x256.bmp" />
+    <Image Include="리소스\오브젝트\석상\석상(부서짐_사자)스프라이트128x256.bmp" />
+    <Image Include="리소스\오브젝트\석상\석상(부서짐_토끼)스프라이트128x256.bmp" />
+    <Image Include="리소스\오브젝트\석상\석상(부서짐_호랑이)스프라이트128x256.bmp" />
+    <Image Include="리소스\오브젝트\아이템\마늘(64).bmp" />
+    <Image Include="리소스\오브젝트\아이템\무(64).bmp" />
+    <Image Include="리소스\오브젝트\아이템\시금치(64).bmp" />
+    <Image Include="리소스\오브젝트\아이템\쑥(64).bmp" />
+    <Image Include="리소스\오브젝트\아이템\포도(64)45도.bmp" />
+    <Image Include="리소스\오브젝트\이펙트\하트64_스프라이트.bmp" />
+    <Image Include="리소스\오브젝트\테이블\기계_스프라이트2.bmp" />
+    <Image Include="리소스\오브젝트\테이블\테이블(256x128).bmp" />
+    <Image Include="리소스\오브젝트\테이블\테이블_접시(256x128).bmp" />
+    <Image Include="리소스\캐릭터\PLAYER(200)_신성오(SS5-24)_비트맵.bmp" />
+    <Image Include="리소스\캐릭터\UI(64)_백가온 (B89-11)_비트맵.bmp" />
+    <Image Include="리소스\캐릭터\UI(64)_신성오(SS5-24)_비트맵.bmp" />
+    <Image Include="리소스\캐릭터\대화창(440)_신성오(SS5-24)_비트맵.bmp" />
+    <Image Include="리소스\캐릭터\대화창(550)_백가온 (B89-11).bmp" />
+    <Image Include="리소스\캐릭터\백가온_움직임(완).bmp" />
+    <Image Include="리소스\캐릭터\주인공 캐릭터-실험버전.bmp" />
+    <Image Include="리소스\캐릭터\캐릭터_전체_움직임_완성본.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="리소스\사운드\[게임브금] Dream_Escape.wav" />
+    <Media Include="리소스\사운드\[기계방,석상방] 잠긴문 오픈.wav" />
+    <Media Include="리소스\사운드\[단서방] 단서종이 볼때.wav" />
+    <Media Include="리소스\사운드\[삽화] 문 두드리는 소리.wav" />
+    <Media Include="리소스\사운드\[석상방] 곰-인간 변신.wav" />
+    <Media Include="리소스\사운드\[석상방] 석상 깨지는 소리.wav" />
+    <Media Include="리소스\사운드\[석상방] 석상 움직임, 가림막 내리는 효과음.wav" />
+    <Media Include="리소스\사운드\[석상방] 하트 효과음 3.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
